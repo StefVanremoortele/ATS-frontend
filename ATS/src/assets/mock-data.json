@@ -1,0 +1,14 @@
+{
+  "cv": [
+    {
+      "id": 1,
+      "filename": "test cvtje",
+      "description": "Some cv description blabla - for security engineer position"
+    },
+    {
+      "id": 2,
+      "filename": "favo cv",
+      "description": "The CV that I like the most and has the most succes rate - for software developer position"
+    }
+  ]
+}
