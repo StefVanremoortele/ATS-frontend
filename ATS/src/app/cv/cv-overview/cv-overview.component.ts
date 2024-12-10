@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './cv-overview.component.scss'
 })
 export class CVOverviewComponent {
+  selectedCv: number = 1;
 
 }

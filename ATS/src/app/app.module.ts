@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CVOverviewComponent } from './cv/cv-overview/cv-overview.component';
 import { CvListComponent } from './cv/cv-list/cv-list.component';
 import { CvListItemComponent } from './cv/cv-list/cv-list-item/cv-list-item.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { CvListItemComponent } from './cv/cv-list/cv-list-item/cv-list-item.comp
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
